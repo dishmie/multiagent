@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     app_config_filepath: str = "config.yaml"
 
     # 数据库相关配置
-    sqlalchemy_database_uri: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/multiagent"
+    sqlalchemy_database_uri: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/manus"
 
     # Redis缓存配置
     redis_host: str = "localhost"
